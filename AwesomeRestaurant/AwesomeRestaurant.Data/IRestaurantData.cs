@@ -9,8 +9,8 @@ namespace AwesomeRestaurant.Data
     public interface IRestaurantData
     {
 
-        IEnumerable<Restaurant> GetAll();
-
+        IEnumerable<Restaurant> GetRestaurantsByName(string name);
+        Restaurant GetByID(int ID);
     }
 
     public class InMemoryRestaurantData : IRestaurantData
@@ -42,11 +42,17 @@ namespace AwesomeRestaurant.Data
         }
 
         //Return all restaurants
-        public IEnumerable<Restaurant> GetAll()
+        public IEnumerable<Restaurant> GetRestaurantsByName(string name = null)
         {
             return from r in restaurants
+                   where string.IsNullOrEmpty(name) || r.Name.StartsWith(name)
                    orderby r.Name
                    select r;
+        }
+
+        public Restaurant GetByID(int ID) 
+        {
+            return restaurants.SingleOrDefault(r => r.ID == ID);
         }
     
     }

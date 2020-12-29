@@ -7,7 +7,6 @@ C:\Users\Kyle\Source\Repos\kjord021\RestaurantWebApp\AwesomeRestaurant\bin\Debug
 C:\Users\Kyle\Source\Repos\kjord021\RestaurantWebApp\AwesomeRestaurant\bin\Debug\netcoreapp2.1\AwesomeResturant.pdb
 C:\Users\Kyle\Source\Repos\kjord021\RestaurantWebApp\AwesomeRestaurant\bin\Debug\netcoreapp2.1\AwesomeResturant.Views.dll
 C:\Users\Kyle\Source\Repos\kjord021\RestaurantWebApp\AwesomeRestaurant\bin\Debug\netcoreapp2.1\AwesomeResturant.Views.pdb
-C:\Users\Kyle\Source\Repos\kjord021\RestaurantWebApp\AwesomeRestaurant\obj\Debug\netcoreapp2.1\AwesomeResturant.csprojAssemblyReference.cache
 C:\Users\Kyle\Source\Repos\kjord021\RestaurantWebApp\AwesomeRestaurant\obj\Debug\netcoreapp2.1\AwesomeResturant.AssemblyInfoInputs.cache
 C:\Users\Kyle\Source\Repos\kjord021\RestaurantWebApp\AwesomeRestaurant\obj\Debug\netcoreapp2.1\AwesomeResturant.AssemblyInfo.cs
 C:\Users\Kyle\Source\Repos\kjord021\RestaurantWebApp\AwesomeRestaurant\obj\Debug\netcoreapp2.1\AwesomeResturant.csproj.CoreCompileInputs.cache
@@ -34,3 +33,6 @@ C:\Users\Kyle\Source\Repos\kjord021\RestaurantWebApp\AwesomeRestaurant\obj\Debug
 C:\Users\Kyle\Source\Repos\kjord021\RestaurantWebApp\AwesomeRestaurant\obj\Debug\netcoreapp2.1\AwesomeResturant.pdb
 C:\Users\Kyle\Source\Repos\kjord021\RestaurantWebApp\AwesomeRestaurant\obj\Debug\netcoreapp2.1\AwesomeResturant.genruntimeconfig.cache
 C:\Users\Kyle\Source\Repos\kjord021\RestaurantWebApp\AwesomeRestaurant\obj\Debug\netcoreapp2.1\AwesomeResturant.csproj.CopyComplete
+C:\Users\Kyle\Source\Repos\kjord021\RestaurantWebApp\AwesomeRestaurant\obj\Debug\netcoreapp2.1\Razor\Pages\Restaurants\Detail.cshtml.g.cs
+C:\Users\Kyle\Source\Repos\kjord021\RestaurantWebApp\AwesomeRestaurant\obj\Debug\netcoreapp2.1\AwesomeResturant.csprojAssemblyReference.cache
+C:\Users\Kyle\Source\Repos\kjord021\RestaurantWebApp\AwesomeRestaurant\obj\Debug\netcoreapp2.1\Razor\Pages\Restaurants\NotFound.cshtml.g.cs
