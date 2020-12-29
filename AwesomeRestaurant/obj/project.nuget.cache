@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uKFhqxmwm27WwGyqxgw5Gqh/JXGOaC+G8kofTqkViDucv5Ms2L0z9kFV5E6631Nb3UuP6broxbQKyyEM+Ka1SQ==",
+  "dgSpecHash": "27x+dejXMTKrc3AUVyfopj+6XXcF9AJXdwMUBRKR3h5c9njpkIJVxVsOXL0uONwp7c4FR9ycwzGjTg8zjWLTVw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kyle\\source\\repos\\AwesomeResturant\\AwesomeResturant.csproj",
+  "projectFilePath": "C:\\Users\\Kyle\\Source\\Repos\\kjord021\\RestaurantWebApp\\AwesomeRestaurant\\AwesomeResturant.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kyle\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\Kyle\\.nuget\\packages\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",
