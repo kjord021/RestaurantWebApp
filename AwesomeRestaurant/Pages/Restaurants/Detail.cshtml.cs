@@ -14,6 +14,12 @@ namespace AwesomeResturant.Pages.Restaurants
         private readonly IRestaurantData restaurantData;
         public Restaurant Restaurant { get; set; }
 
+        //There is no reference needed to where this is created
+        //That is because ASP.NET searched the data structure 
+        //In memory to find any instance of tempdata that matches
+        [TempData]
+        public string Message { get; set; }
+
         public DetailModel(IRestaurantData restaurantData)
         {
             this.restaurantData = restaurantData;

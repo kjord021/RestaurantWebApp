@@ -11,13 +11,17 @@ namespace AwesomeRestaurant.Data
 
         IEnumerable<Restaurant> GetRestaurantsByName(string name);
         Restaurant GetByID(int ID);
+        Restaurant Update(Restaurant updatedRestaurant);
+        Restaurant Add(Restaurant newRestaurant);
+        int Commit();
     }
 
     public class InMemoryRestaurantData : IRestaurantData
     {
-        //Create temp data for dev
+        //Create list to store restaurants
         List<Restaurant> restaurants;
 
+        //create temp data in memory
         public InMemoryRestaurantData()
         {
             restaurants = new List<Restaurant>
@@ -50,10 +54,39 @@ namespace AwesomeRestaurant.Data
                    select r;
         }
 
+        //Return a restaurant with updated values
+        public Restaurant Update(Restaurant updatedRestaurant)
+        {
+            var restaurant = restaurants.SingleOrDefault(r => r.ID == updatedRestaurant.ID);
+
+            if (restaurant != null)
+            {
+                restaurant.Name = updatedRestaurant.Name;
+                restaurant.Location = updatedRestaurant.Location;
+                restaurant.Cuisine = updatedRestaurant.Cuisine;
+            }
+
+            return restaurant;
+
+        }
+
+        //Return a new restaurant entity with new values
+        public Restaurant Add(Restaurant newRestaurant)
+        {
+            restaurants.Add(newRestaurant);
+            newRestaurant.ID = restaurants.Max(r => r.ID) + 1;
+            return newRestaurant;
+        }
+
+        //return a restaurant by id
         public Restaurant GetByID(int ID) 
         {
             return restaurants.SingleOrDefault(r => r.ID == ID);
         }
-    
+
+        public int Commit()
+        {
+            return 0;
+        }
     }
 }

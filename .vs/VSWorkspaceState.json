@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\AwesomeRestaurant",
+    "\\AwesomeRestaurant\\AwesomeRestaurant.Core",
+    "\\AwesomeRestaurant\\AwesomeRestaurant.Data",
+    "\\AwesomeRestaurant\\Pages",
+    "\\AwesomeRestaurant\\Pages\\Restaurants"
   ],
   "PreviewInSolutionExplorer": false
 }

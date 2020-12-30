@@ -36,3 +36,4 @@ C:\Users\Kyle\Source\Repos\kjord021\RestaurantWebApp\AwesomeRestaurant\obj\Debug
 C:\Users\Kyle\Source\Repos\kjord021\RestaurantWebApp\AwesomeRestaurant\obj\Debug\netcoreapp2.1\Razor\Pages\Restaurants\Detail.cshtml.g.cs
 C:\Users\Kyle\Source\Repos\kjord021\RestaurantWebApp\AwesomeRestaurant\obj\Debug\netcoreapp2.1\AwesomeResturant.csprojAssemblyReference.cache
 C:\Users\Kyle\Source\Repos\kjord021\RestaurantWebApp\AwesomeRestaurant\obj\Debug\netcoreapp2.1\Razor\Pages\Restaurants\NotFound.cshtml.g.cs
+C:\Users\Kyle\source\repos\kjord021\RestaurantWebApp\AwesomeRestaurant\obj\Debug\netcoreapp2.1\Razor\Pages\Restaurants\Edit.cshtml.g.cs
